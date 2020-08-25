@@ -42,6 +42,10 @@ stages:
     
     - task: DotNetCoreCLI@2
       inputs:
+        command: 'test'
+        projects: './Temperature.Converter.Tests'
+    - task: DotNetCoreCLI@2
+      inputs:
         command: 'publish'
         publishWebProjects: false
         projects: './Temperature.Converter.API'
