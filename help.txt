@@ -1,0 +1,137 @@
+{
+    "count": 3,
+    "value": [
+        {
+            "data": {},
+            "id": "c4445801-5da3-44f6-917c-b2bbb4d7c126",
+            "name": "SonarCloud",
+            "type": "sonarcloud",
+            "url": "https://sonarcloud.io",
+            "createdBy": {
+                "displayName": "Goldhardt, Marcel",
+                "url": "https://spsprodsbr1.vssps.visualstudio.com/A0e6b4d64-5648-4600-b491-6f6540f8de31/_apis/Identities/89136469-6b1a-6f08-a9da-7de54c4f652d",
+                "_links": {
+                    "avatar": {
+                        "href": "https://dev.azure.com/tdcsp2020-demo/_apis/GraphProfile/MemberAvatars/aad.ODkxMzY0NjktNmIxYS03ZjA4LWE5ZGEtN2RlNTRjNGY2NTJk"
+                    }
+                },
+                "id": "89136469-6b1a-6f08-a9da-7de54c4f652d",
+                "uniqueName": "Marcel_Goldhardt@Dell.com",
+                "imageUrl": "https://dev.azure.com/tdcsp2020-demo/_apis/GraphProfile/MemberAvatars/aad.ODkxMzY0NjktNmIxYS03ZjA4LWE5ZGEtN2RlNTRjNGY2NTJk",
+                "descriptor": "aad.ODkxMzY0NjktNmIxYS03ZjA4LWE5ZGEtN2RlNTRjNGY2NTJk"
+            },
+            "description": "",
+            "authorization": {
+                "scheme": "Token"
+            },
+            "isShared": false,
+            "isReady": true,
+            "owner": "Library",
+            "serviceEndpointProjectReferences": [
+                {
+                    "projectReference": {
+                        "id": "a0528d68-e458-4a76-aaff-ef7963ece5a3",
+                        "name": "tdcsp2020-demo"
+                    },
+                    "name": "SonarCloud",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "data": {
+                "pipelinesSourceProvider": "github"
+            },
+            "id": "4329a7c5-7bd6-4466-a63b-b9c729e424a5",
+            "name": "tdcsp2020-demo",
+            "type": "GitHub",
+            "url": "https://github.com",
+            "createdBy": {
+                "displayName": "Goldhardt, Marcel",
+                "url": "https://spsprodsbr1.vssps.visualstudio.com/A0e6b4d64-5648-4600-b491-6f6540f8de31/_apis/Identities/89136469-6b1a-6f08-a9da-7de54c4f652d",
+                "_links": {
+                    "avatar": {
+                        "href": "https://dev.azure.com/tdcsp2020-demo/_apis/GraphProfile/MemberAvatars/aad.ODkxMzY0NjktNmIxYS03ZjA4LWE5ZGEtN2RlNTRjNGY2NTJk"
+                    }
+                },
+                "id": "89136469-6b1a-6f08-a9da-7de54c4f652d",
+                "uniqueName": "Marcel_Goldhardt@Dell.com",
+                "imageUrl": "https://dev.azure.com/tdcsp2020-demo/_apis/GraphProfile/MemberAvatars/aad.ODkxMzY0NjktNmIxYS03ZjA4LWE5ZGEtN2RlNTRjNGY2NTJk",
+                "descriptor": "aad.ODkxMzY0NjktNmIxYS03ZjA4LWE5ZGEtN2RlNTRjNGY2NTJk"
+            },
+            "description": "",
+            "authorization": {
+                "scheme": "InstallationToken"
+            },
+            "isShared": false,
+            "isReady": true,
+            "owner": "Library",
+            "serviceEndpointProjectReferences": [
+                {
+                    "projectReference": {
+                        "id": "a0528d68-e458-4a76-aaff-ef7963ece5a3",
+                        "name": "tdcsp2020-demo"
+                    },
+                    "name": "tdcsp2020-demo"
+                }
+            ]
+        },
+        {
+            "data": {
+                "appObjectId": "8c08a7a7-ec0d-4ac7-a227-483881499967",
+                "azureSpnPermissions": "[{\"roleAssignmentId\":\"ab83605d-f89a-4abc-93f3-5cf0d7e8194f\",\"resourceProvider\":\"Microsoft.RoleAssignment\",\"provisioned\":true}]",
+                "azureSpnRoleAssignmentId": "ab83605d-f89a-4abc-93f3-5cf0d7e8194f",
+                "registryId": "/subscriptions/94211381-cbc5-4473-b790-de89414c0bfc/resourceGroups/acr-tdcsp2020/providers/Microsoft.ContainerRegistry/registries/tdcsp2020",
+                "registrytype": "ACR",
+                "spnObjectId": "8bc6f78f-7740-405d-9fd1-7a0cce8fee39",
+                "subscriptionId": "94211381-cbc5-4473-b790-de89414c0bfc",
+                "subscriptionName": "Visual Studio Professional"
+            },
+            "id": "git ",
+            "name": "Azure Container Registry",
+            "type": "dockerregistry",
+            "url": "https://hub.docker.com/",
+            "createdBy": {
+                "displayName": "Goldhardt, Marcel",
+                "url": "https://spsprodsbr1.vssps.visualstudio.com/A0e6b4d64-5648-4600-b491-6f6540f8de31/_apis/Identities/89136469-6b1a-6f08-a9da-7de54c4f652d",
+                "_links": {
+                    "avatar": {
+                        "href": "https://dev.azure.com/tdcsp2020-demo/_apis/GraphProfile/MemberAvatars/aad.ODkxMzY0NjktNmIxYS03ZjA4LWE5ZGEtN2RlNTRjNGY2NTJk"
+                    }
+                },
+                "id": "89136469-6b1a-6f08-a9da-7de54c4f652d",
+                "uniqueName": "Marcel_Goldhardt@Dell.com",
+                "imageUrl": "https://dev.azure.com/tdcsp2020-demo/_apis/GraphProfile/MemberAvatars/aad.ODkxMzY0NjktNmIxYS03ZjA4LWE5ZGEtN2RlNTRjNGY2NTJk",
+                "descriptor": "aad.ODkxMzY0NjktNmIxYS03ZjA4LWE5ZGEtN2RlNTRjNGY2NTJk"
+            },
+            "description": "",
+            "authorization": {
+                "parameters": {
+                    "loginServer": "tdcsp2020.azurecr.io",
+                    "role": "8311e382-0749-4cb8-b61a-304f252e45ec",
+                    "scope": "/subscriptions/94211381-cbc5-4473-b790-de89414c0bfc/resourceGroups/acr-tdcsp2020/providers/Microsoft.ContainerRegistry/registries/tdcsp2020",
+                    "servicePrincipalId": "7a1e9798-24e0-4a12-8092-64d61e971483",
+                    "tenantId": "945c199a-83a2-4e80-9f8c-5a91be5752dd"
+                },
+                "scheme": "ServicePrincipal"
+            },
+            "isShared": false,
+            "isReady": true,
+            "operationStatus": {
+                "state": "Ready",
+                "statusMessage": ""
+            },
+            "owner": "Library",
+            "serviceEndpointProjectReferences": [
+                {
+                    "projectReference": {
+                        "id": "a0528d68-e458-4a76-aaff-ef7963ece5a3",
+                        "name": "tdcsp2020-demo"
+                    },
+                    "name": "Azure Container Registry",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}
