@@ -68,3 +68,15 @@ stages:
         DockerNamespace: '$(containerRegistry)'
         DockerRepository: '$(imageRepository)'
         DockerImageTag: '$(tag)'
+    
+    - task: AzureAppServiceManage@0
+      inputs:
+        azureSubscription: 'Visual Studio Professional(94211381-cbc5-4473-b790-de89414c0bfc)'
+        Action: 'Stop Azure App Service'
+        WebAppName: 'tdcsp2020-lab-dockerapp'
+    
+    - task: AzureAppServiceManage@0
+      inputs:
+        azureSubscription: 'Visual Studio Professional(94211381-cbc5-4473-b790-de89414c0bfc)'
+        Action: 'Start Azure App Service'
+        WebAppName: 'tdcsp2020-lab-dockerapp'
